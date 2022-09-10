@@ -1,0 +1,1145 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+.success
+{
+	color: black;
+	padding:2px;
+	background: white;
+	border:2px solid #3dd;
+}
+.success h3
+{
+	border: 2px solid #3dd;
+	padding:2px 100px;
+}
+
+.failed
+{
+	color: black;
+	padding:2px;
+	background: red;
+	border:3px solid #3dd;
+}
+.failed h3
+{
+	/*border: 2px solid #3dd;*/
+	padding:2px 100px;
+}
+
+.eror
+{
+	color: black;
+	font-size: 15px;
+	padding:2px 10px;
+	width: 100%;
+	background: white;
+}
+
+/*Bagian Navigasi*/
+#navigasi
+{
+
+	/*border: 1px solid black;*/
+	display: flex;
+	flex-direction: column;
+	border-radius: 0px 15px 0px 0px;
+	position: fixed;
+	width: 250px;
+	margin-top: 50px;
+	height: 100%;
+	background: #edfafd;
+	box-shadow: 3px 0px 10px grey;
+}
+#navigasi p
+{
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma,  sans-serif;
+	font-size: 17px;
+	/*border: 1px solid red;*/
+	padding-left: 10px;
+	padding-top:10px;
+	color: #01579B;
+	transition: 1s;
+}
+.divnavigasi
+{
+	padding:10px;
+	padding-bottom: 5px;
+	border: none;
+	border-bottom: 1px solid #00E5FF;
+	margin: 10px;
+}
+.divnavigasi a
+{
+	/*border: 1px solid red;*/
+	display: flex;
+	padding:5px;
+	padding-left: 20px;
+	align-items: center;
+	text-decoration: none;
+	color: black;
+	border-radius: 10px;
+	font-size: 15px;
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma,  sans-serif;
+}
+.divnavigasi a:hover
+{
+	box-shadow: 1px 5px 10px grey;
+	cursor: pointer;
+	background: #00BCD4;
+	color: white;
+}
+.image
+{
+	display: flex;
+	padding:10px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	border-bottom: 3px solid #00E5FF;
+}
+.image img
+{
+	margin:10px;
+	border-radius: 100px;
+}
+.image a
+{
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma,  sans-serif;
+	color: black;
+	text-decoration: none;
+	padding:5px;
+	width: 100%;
+	font-size: 14px;
+	/*border: 1px solid red;*/
+}
+/*Background*/
+#background
+{
+	background: #edfafd;
+	position: fixed;
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 100%;
+}
+#top
+{
+	display: flex;
+	/*flex-direction: column;*/
+	/*justify-content: center;*/
+	/*border: 1px solid black;*/
+	height: 200px;
+	background: linear-gradient(90deg,#3dd,#00BCD4);
+}
+#topmenu
+{
+	/*border: 1px solid yellow; */
+	width: 300px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	/*align-items: center;*/
+	flex-direction: column
+}
+.menu2
+{
+	width: 30px;
+}
+.menu1
+{
+	width: 10px;
+}
+.menu3
+{
+	width: 20px;
+}
+.hamburgermenu
+{
+	padding:1px;
+	background: black;
+	border: 1px solid black;
+	transition: 1s;
+	margin:2px;
+	margin-left: 30px;
+}
+#checkbox
+{
+	background: transparent;
+	margin:2px;
+	margin-left: 26px;
+	position: fixed;
+	outline: none;
+	border: none;
+	width: 40px;
+	height: 30px;
+}
+#checkbox:hover + .menu1
+{
+	cursor: pointer;
+	width: 30px;
+}
+#checkbox:hover + .menu1 + .menu2 + .menu3
+{
+	width: 30px;
+	cursor: pointer;
+}
+#topmenu input:hover
+{
+	cursor: pointer;
+}
+#topjudul
+{
+	display: flex;
+	justify-content: center;
+	/*border: 1px solid blue;*/
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma,  sans-serif;
+	padding:10px 10px 10px 30px;
+}
+#topjudul h1
+{
+	text-align: center;
+	color: white;
+	/*border: 1px solid red;*/
+	text-shadow: 2px 2px 5px grey;
+}
+
+
+/*Bagian Form TracerStudy*/
+
+#container
+{
+	transition: 1s;
+	overflow: auto;
+	background: #ffffff;
+	margin-left:25%;
+	margin-top:120px;
+	width: 70%;
+	padding:10px;
+	position: fixed;
+	height: 450px;
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma,  sans-serif;
+	box-shadow: 0px 0px 10px grey;
+	/*border: 1px solid red;	*/
+}
+#pembungkusjudul3
+{
+	padding:10px;
+	/*border: 1px solid red;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #3dd;
+	margin-bottom: 10px;
+}
+#pembungkusjudul
+{
+	padding:10px;
+	font-size: 16px;
+	padding-top: 10px;
+	/*border:1px solid red;*/
+}
+#pembungkusjudul h2
+{
+	/*border: 1px solid black;*/
+	text-align: center;
+	padding-bottom:5px;
+	text-decoration: underline;
+}
+#pembungkus1
+{
+	border:none;
+	border-bottom:5px solid #3dd;
+	border-top:5px solid #3dd;
+	/*background: #FFECB3;*/
+	/*border: 1px solid red;*/
+	margin-bottom:10px;
+	border-radius: 10px;
+	padding:10px;
+	padding-top: 0px;
+	/*height: 230px;*/
+	font-size: 16px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+	display: flex;
+}
+#kanan
+{
+	transition: 1s;
+	height: 100%;
+	width:50%;
+}
+#kiri
+{
+	transition: 1s;
+	padding-top: 1px;
+	width:50%;
+}
+#pembungkuslabelinput1
+{
+	margin-top: 10px;
+	height: 45px;
+	padding:3px;
+	/*border: 1px solid black;*/
+}
+#divinputtext input
+{	
+	margin-top: 10px;
+	outline: none;
+	padding-bottom: 3px;
+	border: none;
+	background: transparent;
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma,  sans-serif;
+	font-size: 14px;
+	border-bottom: 1px solid grey;
+	width: 95%;
+}
+#divinputtext select
+{
+
+	margin-top: 10px;
+	padding-bottom: 3px;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid grey;
+	width: 95%;
+	outline: none;
+}
+
+#pembungkus2
+{
+	border-bottom:5px solid #3dd;
+	border-top:5px solid #3dd;
+	display: flex;
+	/*background:#CCFF90;*/
+	border-radius: 10px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding:10px;
+	margin-bottom:10px;
+	/*border:1px solid red;*/
+}
+#pembungkuslabelinput2
+{
+	padding:5px;
+	margin:2px;
+	width:100%;
+	/*border:1px solid blue;*/
+}
+.pembungkuslabelinput2 #divlabel label
+{
+	display: block;
+	margin-top: 10px;
+}
+#divlabel label
+{
+	font-size: 17px;
+}
+#myDropdown3
+{
+	width:100%;
+	padding:5px;
+	border-radius: 10px;
+	border-bottom:3px solid #FF8A65;
+	border-top:3px solid #FF8A65;
+	/*border: 1px solid red;*/
+}
+#divinputradio
+{
+	/*border: 1px solid black;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding:5px;
+}
+#divinputradio input
+{
+	margin-right:4px;
+}
+.lainnya_input
+{
+	outline: none;
+	padding-bottom: 3px;
+	border: none;
+	background: transparent;
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma,  sans-serif;
+	font-size: 14px;
+	border-bottom: 1px solid grey;
+	width: 50%;
+}
+#pembungkus3
+{
+	border:none;
+	border-bottom:5px solid #3dd;
+	border-top:5px solid #3dd;
+	/*background: #FFECB3;*/
+	/*border: 1px solid red;*/
+	margin-bottom:10px;
+	border-radius: 10px;
+	padding:10px;
+	/*height: 230px;*/
+	font-size: 16px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+	display: flex;
+}
+#kanan3
+{
+	transition: 2s;
+	height: 100%;
+	width:50%;
+}
+#kiri3
+{
+	transition: 2s;
+	/*padding-top: 1px;*/
+	width:50%;
+	border-right: 1px solid black;
+}
+#pembungkuslabelinput3
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 3px;
+	/*margin-top: 10px;*/
+	padding:3px;
+}
+#pembungkuslabelinput3 .divlabel label
+{
+	/*border:1px solid yellow;*/
+	display: block;
+	font-size: 18px;
+}
+.divinputradio3
+{
+	margin:5px;
+	display: flex;
+	justify-content: space-between;
+	padding:2px 0px 2px 0px;
+	/*border: 1px solid red;*/
+}
+.divtextarea3 
+{
+	border-radius: 10px;
+}
+.divtextarea3 textarea
+{
+	outline: none;
+	height: auto;
+	width: 90%;
+	border-radius: 10px;
+	padding:10px;
+	border:1px solid black;
+}
+#pembungkussubmit
+{
+	margin-top: 3px;
+	padding: 10px 0px 10px 0px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: transparent;
+	/*border: 1px solid blue;*/
+}
+#pembungkussubmit button
+{
+	/*padding:20px;*/
+	font-size: 15px;
+	color: black;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	outline: none;
+	border: none;
+	background: #3dd;
+	height: 40px;
+	border-radius: 30px;
+}
+#pembungkussubmit button i
+{
+	background: none;
+	padding:10px;
+}
+#pembungkussubmit button:hover
+{
+	color: white;
+	background: #00BCD4 ;
+	cursor: pointer;
+}
+
+/*Bagian Ubah Password*/
+#containerchangepassword
+{
+	transition: 1s;
+	overflow: auto;
+	background: rgb(255,255,255,0.8);
+	margin-left:25%;
+	margin-top:120px;
+	width: 70%;
+	padding:10px;
+	position: fixed;
+	height: 450px;
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma,  sans-serif;
+	box-shadow: 0px 0px 10px grey;
+	/*border: 1px solid red;	*/
+}
+#divformchangepassword
+{
+	/*border: 1px solid black;*/
+	display: flex;
+	flex-direction: column;
+	padding:20px 20px 20px 20px;
+}
+#divformchangepassword2
+{
+	/*border: 1px solid red;*/
+	text-align: center;
+	font-weight: 600;
+	font-size: 15px;
+}
+#divformchangepassword2 a
+{
+	text-decoration: none;
+	color: #40C4FF;	color: #0091EA;
+
+}
+#divformchangepassword2 a:hover
+{
+	color: #0091EA;
+}
+#divformchangepassword h2
+{
+	text-align: center;
+	text-decoration: underline;
+}
+#divformchangepassword button
+{
+	border: none;
+	outline: none;
+	font-size: 16px;
+	padding:5px;
+	border-radius: 10px;
+	background:  #3dd;
+	font-weight: 700;
+}
+
+#divformchangepassword button:hover
+{
+	cursor: pointer;
+	background: #00BCD4;
+	color: white;
+}
+#labelchangepassword
+{
+	/*border: 1px solid red;*/
+	padding:10px;
+	font-size: 15px;
+	font-weight: 900;
+}
+#inputchangepassword input
+{
+	display: flex;
+	outline: none;
+	width: 90%;
+	border: none;
+	border-bottom: 2px solid black;
+	padding:10px 10px 10px 10px;
+}
+/*Bagian Create Data*/
+#containercreatedata
+{
+	position: fixed;
+	transition: 1s;
+	overflow: auto;
+	background: rgb(255,255,255,0.8);
+	margin-left:25%;
+	margin-top:120px;
+	width: 70%;
+	padding:10px;
+	position: fixed;
+	height: 450px;
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma,  sans-serif;
+	box-shadow: 0px 0px 10px grey;
+	/*border: 1px solid red;	*/
+}
+#divformcreatedata
+{
+	/*border: 1px solid black;*/
+	display: flex;
+	flex-direction: column;
+	padding:20px 20px 20px 20px;
+}
+#divformcreatedata2
+{
+	/*border: 1px solid red;*/
+	text-align: center;
+	font-weight: 600;
+	font-size: 15px;
+}
+#divformcreatedata2 a
+{
+	text-decoration: none;
+	color: #40C4FF;	color: #0091EA;
+
+}
+#divformcreatedata2 a:hover
+{
+	color: #0091EA;
+}
+#divformcreatedata h2
+{
+	text-align: center;
+	text-decoration: underline;
+}
+#divformcreatedata button
+{
+	border: none;
+	outline: none;
+	font-size: 16px;
+	padding:5px;
+	border-radius: 10px;
+	background:  #3dd;
+	font-weight: 700;
+}
+
+#divformcreatedata button:hover
+{
+	cursor: pointer;
+	background: #00BCD4;
+	color: white;
+}
+#labelcreatedata
+{
+	/*border: 1px solid red;*/
+	padding:10px;
+	font-size: 15px;
+	font-weight: 900;
+}
+#inputcreatedata input
+{
+	display: flex;
+	outline: none;
+	width: 90%;
+	border: none;
+	border-bottom: 2px solid black;
+	padding:10px 10px 10px 10px;
+}
+.labelcreatedata
+{
+	/*border: 1px solid red;*/
+	padding:10px;
+	font-size: 15px;
+	font-weight: 900;
+}
+.inputcreatedata input
+{
+	display: flex;
+	outline: none;
+	width: 90%;
+	border: none;
+	border-bottom: 2px solid black;
+	padding:10px 10px 10px 10px;
+}
+/*bagian data alumni*/
+#table
+{
+	border:1px solid #ddd;
+	width: 100%;
+}
+#table thead
+{
+	display:table;
+	width:100%;
+	/*background-color: #3dd;*/
+}
+#table th,td
+{
+	border:.1px solid #ddd;
+	/*text-align:center;*/
+	padding:5px;
+}
+#table tbody
+{
+	/*text-align: center;*/
+	font-size:13px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	overflow: auto;
+	height: 350px;
+	width: 100%;
+}
+#table tbody tr
+{
+	display: flex;
+	width: 100%;
+	/*border: 1px solid red;*/
+}
+#table tbody tr:hover
+{
+	background: #ffffcf;
+	/*cursor: pointer;*/
+}
+#table tbody tr a
+{
+	color: black;
+	text-decoration: none;
+	display: block;
+	/*border:1px solid red;*/
+}
+#table tbody tr a:hover
+{
+	color: #3dd;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);     
+    background: white;    
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #3dd;
+}
+/*Bagian Laporan*/
+#containerreportdata
+{
+	transition: 1s;
+	overflow: auto;
+	background: #ffffff;
+	margin-left:25%;
+	margin-top:120px;
+	width: 70%;
+	padding:10px;
+	position: fixed;
+	height: 450px;
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma,  sans-serif;
+	box-shadow: 0px 0px 10px grey;
+	/*border: 1px solid red;	*/
+}
+#laporan1
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+#laporan1 canvas
+{
+	border:1px solid red;
+	width:50%;
+}
+/*Bagian Mail*/
+#containermail
+{
+	transition: 1s;
+	overflow: auto;
+	background: #ffffff;
+	margin-left:25%;
+	margin-top:50px;
+	width: 70%;
+	display: flex;
+	/*flex-direction: column;*/
+	flex-wrap: wrap;
+	padding:10px;
+	position: fixed;
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma,  sans-serif;
+	box-shadow: 0px 0px 10px grey;
+	/*border: 1px solid red;	*/
+}
+#containermail input
+{
+	outline: none;
+	border: none;
+	background: #B2EBF2;
+	margin-bottom: 5px;
+	padding:5px;
+	margin:2px 2px;
+	width:100%;
+}
+#containermail button
+{
+	outline: none;
+	border: none;
+	padding:3px;
+	width:100%;
+	border-radius: 10px;
+	background: #4DD0E1;
+}
+#containermail button:hover
+{
+	cursor: pointer;
+	background: #0091EA;
+}
+/*Bagian Import Data*/
+#formimport
+{
+	/*width: 1000px;*/
+	padding:5px;
+	display: flex;
+	background: #B2EBF2;
+	margin-right:7px;
+	/*border: 1px solid blue;*/
+}
+#formimport p
+{
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+	font-weight: 900;
+	width:300px;
+	/*border: 1px solid black;*/
+}
+#formimport input
+{
+	padding:0px 5px 0px 5px;
+	/*border: 1px solid black;*/
+
+}
+#formimport button
+{
+	border-radius: 10px;
+	background: #4DD0E1;
+	outline: none;
+	border: none; 
+	width: 300px;
+	font-weight: 600;
+	font-size: 15px;
+}
+#formimport button:hover
+{
+	cursor: pointer;
+	background: #0091EA;
+}
+
+/*Bagian Alumni Data*/
+#containeralumnidata
+{
+	transition: 1s;
+	overflow: auto;
+	background: #ffffff;
+	margin-left:25%;
+	margin-top:120px;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	padding:10px;
+	position: fixed;
+	height: 450px;
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma,  sans-serif;
+	box-shadow: 0px 0px 10px grey;
+	/*border: 1px solid red;	*/
+}
+#pembungkusjudulalumnidata
+{
+	display: flex;
+	border: none;
+	border-left: 1px solid grey;
+	padding-right: 7px;
+}
+#pembungkusjudulalumnidata div
+{
+	background: #4DD0E1;
+	text-align: center;
+	border: 1px solid grey;
+}
+#pembungkusluaralumnidata
+{
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	overflow: auto;
+	border: none;
+	border-left: 1px solid grey;
+	height: 400px;
+}
+#pembungkusdalamalumnidata
+{
+	background: #E0F7FA;
+	display: flex;
+}
+#pembungkusdalamalumnidata div
+{
+	text-align: center;
+	border: 1px solid grey;
+}
+#pembungkusdalamalumnidata div a
+{
+	margin:2px 0px;
+	border-radius: 10px;
+	background: #4DD0E1;
+	width:25%;
+	color: black;
+	text-decoration: none;
+}
+#pembungkusdalamalumnidata div a:hover
+{
+	color: white;
+	background: #0091EA;
+}
+#pembungkusdalamalumnidata div input
+{
+	margin-top: 5px;
+}
+#pembungkusdalamalumnidata:hover
+{
+	cursor: pointer;
+	background: #80DEEA;
+}
+/*Responsive*/
+@media screen and (max-width: 1100px) {
+	#top
+	{
+		flex-direction: column;
+	}
+	#containermail
+	{
+
+		margin-left:13%;
+	}
+	#container
+	{
+		margin-left:13%;
+	}
+	#formimport
+	{
+		width: 981px;
+	}
+	#pembungkusjudulalumnidata
+	{
+		width: 991px;
+	}
+	#pembungkusluaralumnidata
+	{
+		width: 1000px;
+	}
+	#containeralumnidata
+	{
+		margin-left:13%;
+	}
+	#containerchangepassword
+	{
+		margin-left:13%;
+	}
+	#containercreatedata
+	{
+		margin-left:13%;
+	}
+	#pembungkus3
+	{
+		flex-direction: column;
+	}
+	#kanan3
+	{
+		width:100%;
+	}
+	#kiri3
+	{
+		border: none;
+		width:100%;
+	}
+	
+}
+
+/*Login view*/
+#containerlogin
+{
+	/*border:1px solid red;*/
+	display: flex;
+	justify-content: center;
+	/*align-items: center;*/
+	background: linear-gradient(#3dd,white);
+	width: 100%;
+	/*height: 100%;*/
+}
+#formloginview
+{
+	/*border: 1px solid red;*/
+	width: 400px;
+	background: rgba(0,0,0,0.5);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding:10px;
+	margin-top: 100px;
+	height: 400px;
+	/*border: 3px solid orange;*/
+}
+#formubahpasword
+{
+	/*border: 1px solid red;*/
+	width: 70%;
+	background: rgba(0,0,0,0.5);
+	display: flex;
+	position: fixed;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding:10px;
+	/*height: 50%;*/
+	/*border: 3px solid orange;*/
+}
+.divformloginview
+{
+	background: none;
+	/*padding:20px;*/
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	/*border: 1px solid yellow*/
+}
+.divformloginview h3
+{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+	font-size: 20px;
+	background: inherit;
+	color: white;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 5px solid rgba(132, 251, 250, 1);
+	padding: 10px;
+}
+.divformloginview button
+{
+	/*border: 1px solid blue;*/
+	margin-top: 10px;
+	outline: none;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	border-radius: 30px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+	font-size: 17px;
+	background: rgba(132, 251, 250, 1);
+}
+.divformloginview button:hover
+{
+	background: rgba(132, 251, 250, 0.5);
+	cursor: pointer;
+	color:white;
+}
+.divformloginview button i 
+{
+	background: none;
+	padding:5px;
+}
+.divformloginview2 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: none;
+	width: 80%;
+} 
+.divformloginview2 a
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	border: none;
+	border-bottom: 5px solid #aed;
+	text-align: center;
+	margin: 10px 0px;
+	width:100%;
+	padding:10px;
+	color: white;
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma,  sans-serif;
+	background: none;
+}
+.divformloginview2 a:hover
+{
+	color: #aed;
+	background: rgba(0,0,0,0.1);
+}
+.labellog
+{
+	/*border: 1px solid blue;*/
+	width: 80%;
+	background: none;
+}
+.labellog label
+{
+	color: white;
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma,  sans-serif;
+	font-size: 17px;
+	background: none;
+}
+.inputlog
+{
+	background: none;
+	border-bottom: 2px solid rgba(132, 251, 250, 1);
+	width: 80%;
+}
+.inputlog input
+{
+	color: white;
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma,  sans-serif;
+	font-size: 15px;
+	background: none;
+	border: none;
+	padding:10px 10px 5px 10px;
+	outline: none;
+	width: 100%;
+}
+/*support google chrome*/
+.inputlog input::-webkit-input-placeholder{
+	color: #D2D2D2;
+	font-size: 13px;
+}
+
+/*support mozilla*/
+.inputlog input:-moz-input-placeholder{
+	color: #D2D2D2;
+	font-size: 13px;
+}
+
+/*support internet explorer*/
+.inputlog input:-ms-input-placeholder{
+	color: #D2D2D2;
+	font-size: 13px;
+}
+@media screen and (max-width: 800px) {
+	#pembungkus1
+	{
+		flex-direction: column;
+	}
+	#kanan
+	{
+		width: 100%;
+	}
+	#kiri
+	{
+		width:100%;
+	}
+	#divinputtext input
+	{
+		width:100%;
+	}
+	#divinputtext select
+	{
+		width:100%;
+	}
+}
